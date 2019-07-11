@@ -1,46 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='Movy-iosUITests.xctest' tests='25' failures='0'>
   <testsuite name='Movy_iosTests.APITests' tests='5' failures='0'>
-    <testcase classname='Movy_iosTests.APITests' name='testDiscoverMovies' time='0.045'/>
-    <testcase classname='Movy_iosTests.APITests' name='testInvalidRequestDiscoverMovies' time='0.012'/>
-    <testcase classname='Movy_iosTests.APITests' name='testInvalidSearchMovies' time='0.010'/>
-    <testcase classname='Movy_iosTests.APITests' name='testRecentlyAddedMovies' time='0.017'/>
-    <testcase classname='Movy_iosTests.APITests' name='testSearchMovies' time='0.016'/>
+    <testcase classname='Movy_iosTests.APITests' name='testDiscoverMovies' time='0.092'/>
+    <testcase classname='Movy_iosTests.APITests' name='testInvalidRequestDiscoverMovies' time='0.015'/>
+    <testcase classname='Movy_iosTests.APITests' name='testInvalidSearchMovies' time='0.017'/>
+    <testcase classname='Movy_iosTests.APITests' name='testRecentlyAddedMovies' time='0.013'/>
+    <testcase classname='Movy_iosTests.APITests' name='testSearchMovies' time='0.019'/>
   </testsuite>
   <testsuite name='Movy_iosTests.ArrayTests' tests='2' failures='0'>
-    <testcase classname='Movy_iosTests.ArrayTests' name='testInvalidItem' time='0.001'/>
-    <testcase classname='Movy_iosTests.ArrayTests' name='testValidItem' time='0.001'/>
+    <testcase classname='Movy_iosTests.ArrayTests' name='testInvalidItem' time='0.011'/>
+    <testcase classname='Movy_iosTests.ArrayTests' name='testValidItem' time='0.000'/>
   </testsuite>
   <testsuite name='Movy_iosTests.MovieGalleryTests' tests='3' failures='0'>
-    <testcase classname='Movy_iosTests.MovieGalleryTests' name='testAddMovieToCollection' time='0.007'/>
-    <testcase classname='Movy_iosTests.MovieGalleryTests' name='testCorrectNumberOfItems' time='0.005'/>
-    <testcase classname='Movy_iosTests.MovieGalleryTests' name='testRemoveExistingMovieFromCollection' time='0.005'/>
+    <testcase classname='Movy_iosTests.MovieGalleryTests' name='testAddMovieToCollection' time='0.008'/>
+    <testcase classname='Movy_iosTests.MovieGalleryTests' name='testCorrectNumberOfItems' time='0.007'/>
+    <testcase classname='Movy_iosTests.MovieGalleryTests' name='testRemoveExistingMovieFromCollection' time='0.009'/>
   </testsuite>
   <testsuite name='Movy_iosTests.RealmManagerTests' tests='8' failures='0'>
-    <testcase classname='Movy_iosTests.RealmManagerTests' name='testAddCollectionOfObject' time='0.014'/>
-    <testcase classname='Movy_iosTests.RealmManagerTests' name='testAddSingleObject' time='0.005'/>
-    <testcase classname='Movy_iosTests.RealmManagerTests' name='testClearData' time='0.002'/>
+    <testcase classname='Movy_iosTests.RealmManagerTests' name='testAddCollectionOfObject' time='0.022'/>
+    <testcase classname='Movy_iosTests.RealmManagerTests' name='testAddSingleObject' time='0.004'/>
+    <testcase classname='Movy_iosTests.RealmManagerTests' name='testClearData' time='0.003'/>
     <testcase classname='Movy_iosTests.RealmManagerTests' name='testDeleteCollectionOfObjects' time='0.002'/>
-    <testcase classname='Movy_iosTests.RealmManagerTests' name='testDeleteSingleObject' time='0.003'/>
-    <testcase classname='Movy_iosTests.RealmManagerTests' name='testGetObjects' time='0.002'/>
-    <testcase classname='Movy_iosTests.RealmManagerTests' name='testGetObjectsUsingPredicate' time='0.011'/>
+    <testcase classname='Movy_iosTests.RealmManagerTests' name='testDeleteSingleObject' time='0.005'/>
+    <testcase classname='Movy_iosTests.RealmManagerTests' name='testGetObjects' time='0.005'/>
+    <testcase classname='Movy_iosTests.RealmManagerTests' name='testGetObjectsUsingPredicate' time='0.014'/>
     <testcase classname='Movy_iosTests.RealmManagerTests' name='testGetObjectsWithNoResults' time='0.002'/>
   </testsuite>
   <testsuite name='Movy_iosTests.SearchResultTableTests' tests='1' failures='0'>
-    <testcase classname='Movy_iosTests.SearchResultTableTests' name='testCorrectNumberOfCells' time='0.010'/>
+    <testcase classname='Movy_iosTests.SearchResultTableTests' name='testCorrectNumberOfCells' time='0.037'/>
   </testsuite>
   <testsuite name='Movy_iosTests.UITableViewTests' tests='2' failures='0'>
-    <testcase classname='Movy_iosTests.UITableViewTests' name='testRestore' time='0.005'/>
-    <testcase classname='Movy_iosTests.UITableViewTests' name='testSetEmptyMessage' time='0.005'/>
+    <testcase classname='Movy_iosTests.UITableViewTests' name='testRestore' time='0.013'/>
+    <testcase classname='Movy_iosTests.UITableViewTests' name='testSetEmptyMessage' time='0.007'/>
   </testsuite>
   <testsuite name='Movy_iosTests.UIViewControllerTests' tests='1' failures='0'>
-    <testcase classname='Movy_iosTests.UIViewControllerTests' name='testShowErrorIsPresentedWithGivenTitleAndDescription' time='0.015'/>
+    <testcase classname='Movy_iosTests.UIViewControllerTests' name='testShowErrorIsPresentedWithGivenTitleAndDescription' time='0.059'/>
   </testsuite>
   <testsuite name='Movy_iosUITests.LandingPageTests' tests='2' failures='0'>
-    <testcase classname='Movy_iosUITests.LandingPageTests' name='testAppDisplaysLandingPage' time='5.079'/>
-    <testcase classname='Movy_iosUITests.LandingPageTests' name='testTryNowButtonPresentMainTabControllerAndHome' time='6.336'/>
+    <testcase classname='Movy_iosUITests.LandingPageTests' name='testAppDisplaysLandingPage' time='4.775'/>
+    <testcase classname='Movy_iosUITests.LandingPageTests' name='testTryNowButtonPresentMainTabControllerAndHome' time='6.780'/>
   </testsuite>
   <testsuite name='Movy_iosUITests.MainTabBarTests' tests='1' failures='0'>
-    <testcase classname='Movy_iosUITests.MainTabBarTests' name='testTabBarItems' time='7.628'/>
+    <testcase classname='Movy_iosUITests.MainTabBarTests' name='testTabBarItems' time='8.156'/>
   </testsuite>
 </testsuites>
