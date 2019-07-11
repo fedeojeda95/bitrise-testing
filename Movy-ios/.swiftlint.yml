@@ -1,0 +1,16 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+
+line_length: 170
+# they can set both implicitly with an array
+function_body_length: 
+  - 100 # warning
+  - 200 # error
+type_body_length:
+  - 300 # warning
+  - 400 # error
+# or they can set both explicitly
+file_length:
+  warning: 500
+  error: 1200

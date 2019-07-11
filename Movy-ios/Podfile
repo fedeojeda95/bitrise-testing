@@ -1,0 +1,26 @@
+use_frameworks!
+
+def shared_pods
+  pod 'Moya', '~> 13.0'
+  pod 'Kingfisher', '~> 5.5.0'
+  pod 'Cosmos', '~> 19.0'
+  pod 'RealmSwift', '~> 3.16.2'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+  pod 'Moya/RxSwift', '~> 13.0.1'
+  pod 'RxRealm', '~> 0.7.6'
+end
+
+target 'Movy-ios' do
+	shared_pods
+end
+
+target 'Movy-iosTests' do
+  shared_pods
+  pod 'Hippolyte'
+end
+
+target 'Movy-iosUITests' do
+  shared_pods
+  pod 'Hippolyte'
+end
